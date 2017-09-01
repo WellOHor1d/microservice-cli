@@ -8,6 +8,8 @@
     <artifactId>microservice-cli</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <packaging>pom</packaging>
+    
     <modules>
         <module>web-demo</module>
     </modules>
@@ -51,7 +53,7 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- log4j-->
+        <!-- slf4j-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-logging</artifactId>
